@@ -1,0 +1,37 @@
+.tienda{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    justify-content: center;
+    align-items: stretch;
+}
+.tienda p{
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.tienda img{
+    width: 400px;
+    padding: 20px;
+}
+.producto{
+    box-shadow: #806375 3px 3px 3px;
+    border-radius: 4px;
+    margin:40px;   
+}
+a{
+    text-decoration: none;
+}
+.comprar{
+    border: none;
+    border-radius: 6px;
+    padding: 5px;
+    text-align: center;
+}
+a .comprar{
+    @extend a;
+    display:flex;
+    align-items:center;
+    margin: auto;
+    margin-bottom: 10px;
+}

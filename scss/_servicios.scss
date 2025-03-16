@@ -1,0 +1,19 @@
+.servicio-descripcion{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.servicio-facial{
+    margin-bottom: 50px;
+}
+.facial-imagen img{
+    height: 300px;
+    object-fit: cover;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.facial-imagen img:hover{
+    opacity: 0.54;
+}

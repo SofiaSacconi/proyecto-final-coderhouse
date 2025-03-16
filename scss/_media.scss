@@ -1,0 +1,92 @@
+$OcupacionTotal: 100%;
+@media(max-width:450px){
+    body{
+        padding:10px;
+        max-width: $OcupacionTotal;
+    }
+    header{
+        max-width: $OcupacionTotal;
+    }
+    div.banner{
+        height: 280px;
+    }
+    .logo-pagina-beauty{
+        margin-right: 0;
+    }
+    .navbar{
+        margin-left: 0;
+    }
+    h1{
+        font-size: 1.6rem;
+        font-weight: 700;
+    }
+    h2{
+        max-width: $OcupacionTotal;
+        padding: 5%;
+    }
+    .todos-los-servicios{
+        grid-auto-rows: 12%;
+        margin-bottom:0;
+    }
+    .boton-inicio{
+        margin-left: 25%;
+        margin-top: 0;
+    }
+    footer{
+        max-width: $OcupacionTotal;
+        height: 40%;
+        padding-bottom: 10px;
+    }
+    footer a{
+        padding: 0;
+    }
+    .logo-whatsapp{
+        position: fixed;
+        top:90%;
+        left:80%;
+        padding-bottom: 20px;
+    }
+    .tienda{
+        max-width: $OcupacionTotal;
+        margin: 0;
+    }
+    .producto{
+        max-width: $OcupacionTotal;
+    }
+    .producto img{
+        max-width: $OcupacionTotal;
+    }
+    .servicio-descripcion{
+        margin: 0;
+        padding-bottom: 20px;
+    }
+    .servicio-facial{
+        max-width: $OcupacionTotal;
+        width: $OcupacionTotal;
+        padding: 0;
+        margin:0;
+    }
+    .facial-imagen{
+        max-width: $OcupacionTotal;
+        width: $OcupacionTotal;
+        height: 10%;
+        padding: 0;
+        margin:0;
+    }
+    .contacto{
+        max-width: $OcupacionTotal;
+        padding: 20px;
+        margin: 0;
+    }
+    .contacto input{
+        max-width: $OcupacionTotal;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .contacto input{
+        max-width: $OcupacionTotal;  
+    }
+    #contacto-submit{
+        padding: 5px;
+    }
+}

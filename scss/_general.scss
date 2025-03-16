@@ -1,0 +1,156 @@
+$colorMenu:#fed1cd;
+$colorTexto:#243b4a;
+$colorBordes:#806375;
+$colorFondo: whitesmoke;
+$colorA: #5e4855;
+$colorProducto:#ffe7e6ef;
+
+$FuentePrincipal: "Quicksand", sans-serif;
+
+$OcupacionTotal: 100%;
+body{
+    background-color: $colorFondo;
+    font-family: $FuentePrincipal;
+    margin: 0;
+    font-weight: 300px;
+}
+header{
+    background-color: $colorMenu;
+    height: $OcupacionTotal;
+    background-size: $OcupacionTotal;
+    display: flex;
+    justify-content: space-between;
+}
+header img{
+    width: 40%;
+    height: 20%;
+}
+.banner{
+    color: $colorBordes;
+    width: $OcupacionTotal;
+}
+h2{
+    text-align: center;
+    padding-top: 40px;
+    letter-spacing: 2px;
+}
+h3{
+    color: $colorTexto;
+    text-shadow: #fed1cd 1px 2px 3px;
+}
+.navbar{
+    color: $colorMenu;
+}
+p{
+    color: $colorTexto;
+    display: flex;
+    text-align: center;
+    margin: 1px;
+}
+nav a{
+    color:$colorA;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin-top: 20%;
+    float: right;
+}
+nav li{
+    display: inline;
+    margin-right: 20px;
+}
+nav a{
+    text-decoration: none;
+    margin-top: 10%;
+    font-size: 20px;   
+}
+.boton-contacto{
+    color: $colorBordes;
+}
+.boton-inicio{
+    border-color: $colorBordes;
+}
+.producto{
+    background-color: $colorProducto;
+    border-color: $colorMenu;
+}
+.comprar{
+    background-color: $colorBordes;
+    color: $colorMenu;
+}
+.contacto{
+    background-color: $colorMenu;
+    color: $colorA;
+}
+#contacto-submit{
+    border-color: $colorBordes;
+}
+.contacto-textarea{
+    color: $colorA;
+}
+footer{
+    background-color: $colorMenu;
+    margin-bottom: 0;
+}
+footer ul p{
+    padding-top: 20px;
+    font-weight: 700;
+}
+.logo-whatsapp{
+    position: fixed;
+    top: 83%;
+    left: 90%;
+}
+footer li{
+    list-style: none;
+    justify-items:stretch;
+}
+footer img{
+    width: 40px;
+    height: 40px;
+}
+.redes{
+    display: block;
+    justify-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+.redes li{
+    display: inline;
+    margin-right: 10px;
+}
+.redes ul{
+    padding-top: 10px;
+}
+.service{
+    max-width: $OcupacionTotal;
+}
+.facial-imagen{
+    width: $OcupacionTotal;
+    height: $OcupacionTotal;
+}
+.facial-imagen img{
+    width: 100%;
+}
+.formulario-contacto{
+    width: $OcupacionTotal;
+    background-size: $OcupacionTotal;
+}
+.contacto input{
+    width: $OcupacionTotal;
+}
+.contacto-textarea{
+    width: $OcupacionTotal;
+}
+.postulate{
+    width: $OcupacionTotal;
+    background-size: $OcupacionTotal;
+}
+.contacto input{
+    border-bottom: 1px solid $colorA;
+}
+.carousel-caption p{
+    text-shadow: $colorProducto 1px 1px 1px;
+}

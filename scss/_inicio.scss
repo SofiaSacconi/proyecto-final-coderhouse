@@ -1,0 +1,142 @@
+.banner{
+    height: 450px;
+    background-image: url(https://radiomariajuana.com/wp-content/uploads/2024/03/tendencias-estetica.jpg);
+    opacity: 70%;
+    text-shadow: black 2px 1px 2px;
+    letter-spacing: 3px;
+}
+.banner p{
+    font-size: 2rem;
+    padding-top: 90px;
+    padding-left: 10%;
+}
+h1{
+    font-size: 3rem;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 10%;
+    margin-right: 30px
+}
+#carouselExampleCaptions{
+    max-width: 30%;
+    margin: auto;
+}
+.carousel-caption p{
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+.carousel-caption h3{
+    font-weight: bold;
+}
+.productos-mas-vendidos{
+    box-sizing: border-box;
+    width: 48%;
+    height: auto;
+}
+.todos-los-servicios{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax (250px,1fr));
+    grid-auto-rows: 180px;
+    grid-auto-flow: row;
+    grid-auto-columns: 1fr;
+    margin: 0;
+    gap: 0;
+    margin-bottom: 300px;
+}
+.service{
+    height: auto;
+    border-radius: 4px;
+    background-size: cover;
+    background-position: center;
+}
+.service:hover{
+    opacity: 0.64;
+}
+.servicios-beauty:first-child{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-end: span 1;
+    grid-row-end: span 3;
+    background-image: url(../images/servicio1.jpg);
+    @extend .service;
+}
+.servicios-beauty2{
+    grid-column-start: 2;
+    grid-row-start: 3;
+    grid-column-end: span 1;
+    grid-row-end: span 1;
+    background-image: url(../images/servicio2.jpg);
+    @extend .service;
+}
+.servicios-beauty3{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-column-end: span 1;
+    grid-row-end: span 2;
+    background-image: url(../images/servicio3.jpg);
+    @extend .service;
+}
+.servicios-beauty4{
+    grid-column-start: 2;
+    grid-row-start: 4;
+    grid-column-end: span 1;
+    grid-row-end: span 1;
+    background-image: url(../images/servicio4.jpg);
+    @extend .service;
+}
+.servicios-beauty5{
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-column-end: span 1;
+    grid-row-end: span 3;
+    background-image: url(../images/servicio5.jpg);
+    @extend .service;
+}
+.servicios-beauty6{
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-column-end: span 1;
+    grid-row-end: span 1;
+    background-image: url(../images/servicio6.jpg);
+    @extend .service;
+}
+.servicios-beauty7{
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-column-end: span 1;
+    grid-row-end: span 1;
+    background-image: url(../images/servicio7.jpg);
+}
+.servicios-beauty8{
+    grid-column-start: 4;
+    grid-row-start: 3;
+    grid-column-end: span 1;
+    grid-row-end: span 2;
+    background-image: url(../images/servicio8.jpg);
+    @extend .service;
+}
+.servicios-beauty9{
+    grid-column-start: 3;
+    grid-row-start: 4;
+    grid-column-end: span 1;
+    grid-row-end: span 1;
+    background-image: url(../images/servicio9.jpg);
+    @extend .service;
+}
+.boton-contacto{
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+.boton-inicio{
+    text-align: center;
+    padding: 8px;
+    border: none;
+    border: solid 2px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    margin-left: 44%;
+}

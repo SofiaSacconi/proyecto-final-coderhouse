@@ -1,0 +1,29 @@
+.formulario-contacto{
+    background-image: url(https://i.pinimg.com/736x/2e/64/5b/2e645bc4cc451ca93b58a2e97b51210f.jpg);
+    opacity: 80%;
+    padding: 30px;
+}
+.contacto{
+    margin: 2% 30% 20% 30%;
+    padding: 100px;
+    border-radius: 8px;
+}
+.contacto input{
+    margin-bottom: 30px;
+    padding: 7px;
+    border-radius: 3px;
+    border: none;
+    background-color: transparent;
+}
+#contacto-submit{
+    letter-spacing: 2px;
+    width: 50%;
+    margin-top: 20px;
+    text-align: center;
+    border: solid 2px;
+    margin-left: 20%;
+}
+.contacto-textarea{
+    background-color: transparent;
+    margin-top: 10px;
+}
