@@ -9,6 +9,7 @@ $FuentePrincipal: "Quicksand", sans-serif;
 
 $OcupacionTotal: 100%;
 body{
+    display: grid;
     background-color: $colorFondo;
     font-family: $FuentePrincipal;
     margin: 0;
@@ -23,7 +24,7 @@ header{
 }
 header img{
     width: 40%;
-    height: 20%;
+    height: 80%;
 }
 .banner{
     color: $colorBordes;
