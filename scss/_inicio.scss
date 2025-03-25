@@ -6,21 +6,23 @@
     text-shadow: black 2px 1px 2px;
     letter-spacing: 3px;
 }
-//background-image: url(https://radiomariajuana.com/wp-content/uploads/2024/03/tendencias-estetica.jpg);
 .banner p{
-    font-size: 2rem;
-    padding-top: 90px;
-    padding-left: 10%;
+    font-size: 1.5rem;
+    padding-top: 20px;
+    padding-left: 50px;
+    text-align: start;
+    color:black;
 }
 h1{
-    font-size: 3rem;
+    font-size: 2rem;
     display: flex;
     flex-direction: row-reverse;
-    padding-top: 10%;
+    padding-top: 30%;
     margin-right: 30px
 }
 #carouselExampleCaptions{
-    max-width: 30%;
+    background-size: 100%;
+    max-width: 100%;
     margin: auto;
 }
 .carousel-caption p{
