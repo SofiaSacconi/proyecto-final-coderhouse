@@ -23,10 +23,15 @@ header img {
   width: 100%;
 }
 
+h1 {
+  color: #243b4a;
+}
+
 h2 {
   text-align: center;
   padding-top: 40px;
   letter-spacing: 2px;
+  color: #243b4a;
 }
 
 h3 {
@@ -182,7 +187,8 @@ footer img {
 
 .banner {
   height: 450px;
-  background-image: url(https://radiomariajuana.com/wp-content/uploads/2024/03/tendencias-estetica.jpg);
+  background-image: url(https://www.unils.edu.br/wp-content/uploads/2021/03/FOTO_01-2.png);
+  background-size: cover;
   opacity: 70%;
   text-shadow: black 2px 1px 2px;
   letter-spacing: 3px;
@@ -341,6 +347,11 @@ h1 {
   padding: 30px;
 }
 
+label {
+  max-width: 100%;
+  width: 100%;
+}
+
 .contacto {
   margin: 2% 30% 20% 30%;
   padding: 100px;
@@ -348,6 +359,14 @@ h1 {
 }
 
 .contacto input {
+  margin-bottom: 30px;
+  padding: 7px;
+  border-radius: 3px;
+  border: none;
+  background-color: transparent;
+}
+
+.contacto select {
   margin-bottom: 30px;
   padding: 7px;
   border-radius: 3px;
