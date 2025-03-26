@@ -16,7 +16,7 @@ header {
 
 header img {
   width: 40%;
-  height: 80px;
+  height: auto;
 }
 
 .banner {
