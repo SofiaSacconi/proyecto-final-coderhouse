@@ -101,6 +101,7 @@ nav a{
 footer{
     background-color: $colorMenu;
     margin-bottom: 0;
+    height: 100%;
 }
 footer ul p{
     padding-top: 20px;
@@ -114,6 +115,11 @@ footer ul p{
 footer li{
     list-style: none;
     justify-items:stretch;
+    background-color: $colorMenu;
+}
+footer ul{
+    background-color: $colorMenu;
+    margin-bottom: 0;
 }
 footer img{
     width: 40px;
@@ -124,10 +130,12 @@ footer img{
     justify-items: center;
     justify-content: center;
     padding-top: 30px;
+    background-color: $colorMenu;
+    padding-bottom: 20px;
 }
 .redes li{
     display: inline;
-    margin-right: 10px;
+    padding-right: 10px;
 }
 .redes ul{
     padding-top: 10px;

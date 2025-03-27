@@ -158,6 +158,7 @@ nav a, nav a .comprar, a nav .comprar {
 footer {
   background-color: #fed1cd;
   margin-bottom: 0;
+  height: 100%;
 }
 
 footer ul p {
@@ -174,6 +175,12 @@ footer ul p {
 footer li {
   list-style: none;
   justify-items: stretch;
+  background-color: #fed1cd;
+}
+
+footer ul {
+  background-color: #fed1cd;
+  margin-bottom: 0;
 }
 
 footer img {
@@ -186,11 +193,13 @@ footer img {
   justify-items: center;
   justify-content: center;
   padding-top: 30px;
+  background-color: #fed1cd;
+  padding-bottom: 20px;
 }
 
 .redes li {
   display: inline;
-  margin-right: 10px;
+  padding-right: 10px;
 }
 
 .redes ul {
