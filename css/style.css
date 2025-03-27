@@ -1,3 +1,50 @@
+.formulario-contacto {
+  background-image: url(https://i.pinimg.com/736x/2e/64/5b/2e645bc4cc451ca93b58a2e97b51210f.jpg);
+  opacity: 80%;
+  padding: 30px;
+}
+
+label {
+  max-width: 100%;
+  width: 100%;
+}
+
+.contacto {
+  margin: 2% 30% 20% 30%;
+  padding: 100px;
+  border-radius: 8px;
+}
+
+.contacto input {
+  margin-bottom: 30px;
+  padding: 7px;
+  border-radius: 3px;
+  border: none;
+  background-color: transparent;
+}
+
+.contacto select {
+  margin-bottom: 30px;
+  padding: 7px;
+  border-radius: 3px;
+  border: none;
+  background-color: transparent;
+}
+
+#contacto-submit {
+  letter-spacing: 2px;
+  width: 50%;
+  margin-top: 20px;
+  text-align: center;
+  border: solid 2px;
+  margin-left: 20%;
+}
+
+.contacto-textarea {
+  background-color: transparent;
+  margin-top: 10px;
+}
+
 body {
   display: grid;
   background-color: whitesmoke;
@@ -345,53 +392,101 @@ h1 {
   margin-left: 44%;
 }
 
-.formulario-contacto {
-  background-image: url(https://i.pinimg.com/736x/2e/64/5b/2e645bc4cc451ca93b58a2e97b51210f.jpg);
-  opacity: 80%;
-  padding: 30px;
+@media (max-width: 450px) {
+  body {
+    padding: 10px;
+    max-width: 100%;
+  }
+  header {
+    max-width: 100%;
+  }
+  header img {
+    width: 50%;
+    height: 70px;
+  }
+  div.banner {
+    height: 280px;
+  }
+  .logo-pagina-beauty {
+    margin-right: 0;
+  }
+  .navbar {
+    margin-left: 0;
+    text-align: end;
+  }
+  h1 {
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+  h2 {
+    max-width: 100%;
+    padding: 5%;
+  }
+  .todos-los-servicios {
+    grid-auto-rows: 12%;
+    margin-bottom: 0;
+  }
+  .boton-inicio {
+    margin-left: 25%;
+    margin-top: 0;
+  }
+  footer {
+    max-width: 100%;
+    height: 40%;
+    padding-bottom: 10px;
+  }
+  footer a, footer a .comprar, a footer .comprar {
+    padding: 0;
+  }
+  .logo-whatsapp {
+    position: fixed;
+    top: 90%;
+    left: 80%;
+    padding-bottom: 20px;
+  }
+  .tienda {
+    max-width: 100%;
+    margin: 0;
+  }
+  .producto {
+    max-width: 100%;
+  }
+  .producto img {
+    max-width: 100%;
+  }
+  .servicio-descripcion {
+    margin: 0;
+    padding-bottom: 20px;
+  }
+  .servicio-facial {
+    max-width: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .facial-imagen {
+    max-width: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .contacto {
+    max-width: 100%;
+    padding: 20px;
+    margin: 0;
+  }
+  .contacto input {
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .contacto input {
+    max-width: 100%;
+  }
+  #contacto-submit {
+    padding: 5px;
+  }
 }
-
-label {
-  max-width: 100%;
-  width: 100%;
-}
-
-.contacto {
-  margin: 2% 30% 20% 30%;
-  padding: 100px;
-  border-radius: 8px;
-}
-
-.contacto input {
-  margin-bottom: 30px;
-  padding: 7px;
-  border-radius: 3px;
-  border: none;
-  background-color: transparent;
-}
-
-.contacto select {
-  margin-bottom: 30px;
-  padding: 7px;
-  border-radius: 3px;
-  border: none;
-  background-color: transparent;
-}
-
-#contacto-submit {
-  letter-spacing: 2px;
-  width: 50%;
-  margin-top: 20px;
-  text-align: center;
-  border: solid 2px;
-  margin-left: 20%;
-}
-
-.contacto-textarea {
-  background-color: transparent;
-  margin-top: 10px;
-}
-
 .postulate p {
   margin-top: 40px;
   margin-left: 30px;
@@ -508,102 +603,6 @@ a .comprar {
   align-items: center;
   margin: auto;
   margin-bottom: 10px;
-}
-
-@media (max-width: 450px) {
-  body {
-    padding: 10px;
-    max-width: 100%;
-  }
-  header {
-    max-width: 100%;
-  }
-  header img {
-    width: 50%;
-    height: 70px;
-  }
-  div.banner {
-    height: 280px;
-  }
-  .logo-pagina-beauty {
-    margin-right: 0;
-  }
-  .navbar {
-    margin-left: 0;
-    text-align: end;
-  }
-  h1 {
-    font-size: 1.6rem;
-    font-weight: 700;
-  }
-  h2 {
-    max-width: 100%;
-    padding: 5%;
-  }
-  .todos-los-servicios {
-    grid-auto-rows: 12%;
-    margin-bottom: 0;
-  }
-  .boton-inicio {
-    margin-left: 25%;
-    margin-top: 0;
-  }
-  footer {
-    max-width: 100%;
-    height: 40%;
-    padding-bottom: 10px;
-  }
-  footer a, footer a .comprar, a footer .comprar {
-    padding: 0;
-  }
-  .logo-whatsapp {
-    position: fixed;
-    top: 90%;
-    left: 80%;
-    padding-bottom: 20px;
-  }
-  .tienda {
-    max-width: 100%;
-    margin: 0;
-  }
-  .producto {
-    max-width: 100%;
-  }
-  .producto img {
-    max-width: 100%;
-  }
-  .servicio-descripcion {
-    margin: 0;
-    padding-bottom: 20px;
-  }
-  .servicio-facial {
-    max-width: 100%;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-  }
-  .facial-imagen {
-    max-width: 100%;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-  }
-  .contacto {
-    max-width: 100%;
-    padding: 20px;
-    margin: 0;
-  }
-  .contacto input {
-    max-width: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  .contacto input {
-    max-width: 100%;
-  }
-  #contacto-submit {
-    padding: 5px;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */
