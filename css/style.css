@@ -73,6 +73,8 @@ header img {
 
 h1 {
   color: #243b4a;
+  text-align: center;
+  padding-top: 20px;
 }
 
 h2 {
@@ -260,7 +262,7 @@ footer img {
   padding-left: 10%;
 }
 
-h1 {
+h1.inicio {
   font-size: 3rem;
   display: flex;
   flex-direction: row-reverse;
