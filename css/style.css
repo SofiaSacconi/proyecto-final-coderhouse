@@ -271,7 +271,7 @@ h1.inicio {
 }
 
 #carouselExampleCaptions {
-  justify-content: center;
+  max-width: 30%;
   margin: auto;
 }
 
