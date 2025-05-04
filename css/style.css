@@ -45,6 +45,11 @@ label {
   margin-top: 10px;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   display: grid;
   background-color: whitesmoke;
@@ -103,7 +108,7 @@ p {
   margin: 1px;
 }
 
-nav a, nav a .comprar, a nav .comprar {
+nav a {
   color: #5e4855;
 }
 
@@ -120,7 +125,7 @@ nav li {
   margin-right: 20px;
 }
 
-nav a, nav a .comprar, a nav .comprar {
+nav a {
   text-decoration: none;
   margin-top: 10%;
   font-size: 20px;
@@ -208,7 +213,7 @@ footer img {
   padding-top: 10px;
 }
 
-.service, .servicios-beauty9, .servicios-beauty8, .servicios-beauty6, .servicios-beauty5, .servicios-beauty4, .servicios-beauty3, .servicios-beauty2, .servicios-beauty:first-child {
+.service {
   max-width: 100%;
 }
 
@@ -249,7 +254,7 @@ footer img {
 
 .banner {
   height: 450px;
-  background-image: url(https://www.unils.edu.br/wp-content/uploads/2021/03/FOTO_01-2.png);
+  background-image: url(../images/banner.mp4);
   background-size: cover;
   opacity: 70%;
   text-shadow: black 2px 1px 2px;
@@ -453,7 +458,7 @@ h1.inicio {
     height: 40%;
     padding-bottom: 10px;
   }
-  footer a, footer a .comprar, a footer .comprar {
+  footer a {
     padding: 0;
   }
   .logo-whatsapp {
