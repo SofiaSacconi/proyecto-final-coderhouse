@@ -2,28 +2,58 @@ const carrito = [];
 
 const botones = document.querySelectorAll(".comprar");
 const cantidadProductos = document.getElementById("cantidad");
-const total = document.getElementById("total");
+const totalElemento = document.getElementById("total"); // Renombrado
 
 //Función para obtener precio
 function obtenerPrecio(boton){
     const divProducto = boton.closest(".producto");
     const textoPrecio = divProducto.querySelectorAll("p")[1].textContent;
     const precio = parseFloat(
-    textoPrecio
-      .replace("$", "")       // Quita el símbolo $
-      .replace(/\./g, "")     // Quita los puntos (miles)
-      .replace(",", ".")      // Cambia la coma por punto
+        textoPrecio
+            .replace("$", "")
+            .replace(/\./, "")
+            .replace(",", ".")
     );
-    return isNaN(precio) ? 0 : precio; // Fallback si falla
+    return isNaN(precio) ? 0 : precio;
 }
 
-botones.forEach((boton)=>{
-    boton.addEventListener("click", ()=> {
+botones.forEach((boton) => {
+    boton.addEventListener("click", () => {
         const precio = obtenerPrecio(boton);
         carrito.push(precio);
 
         cantidadProductos.textContent = carrito.length;
-        const total = carrito.reduce((acum,precio)=> acum + precio, 0);
-        total.textContent = total.toFixed(2);
-    })
+
+        const totalCarrito = carrito.reduce((acum, precio) => acum + precio, 0);
+        totalElemento.textContent = totalCarrito.toLocaleString("es-AR", {
+            minimumFractionDigits: 2,
+            maximumFractionDigits: 2,
+        });
+    });
+});
+
+function mostrarPanelFlotante() {
+    const panel = document.getElementById("panel-flotante");
+    panel.classList.add("mostrar");
+
+    setTimeout(() => {
+    panel.classList.remove("mostrar");
+    }, 2000); 
+};
+
+botones.forEach((boton) => {
+    boton.addEventListener("click", () => {
+    const precio = obtenerPrecio(boton);
+    carrito.push(precio);
+
+    cantidadProductos.textContent = carrito.length;
+
+    const totalCarrito = carrito.reduce((acum, precio) => acum + precio, 0);
+    totalElemento.textContent = totalCarrito.toLocaleString("es-AR", {
+        minimumFractionDigits: 2,
+        maximumFractionDigits: 2,
+    });
+
+    mostrarPanelFlotante(); //
+    });
 });

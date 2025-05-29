@@ -253,6 +253,27 @@ footer img {
   text-shadow: rgba(255, 231, 230, 0.937254902) 1px 1px 1px;
 }
 
+#panel-flotante {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #fed1cd;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 999;
+  font-family: "Quicksand", sans-serif;
+}
+
+#panel-flotante.mostrar {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .banner {
   height: 450px;
   background-image: url(../images/banner.mp4);
