@@ -15,8 +15,8 @@
     padding: 20px;
 }
 .producto{
-    box-shadow: #806375 3px 3px 3px;
-    border-radius: 4px;
+    box-shadow: #806375 4px 4px 4px;
+    border-radius: 10px;
     margin:40px;   
 }
 a{
@@ -24,7 +24,7 @@ a{
 }
 .comprar{
     border: none;
-    border-radius: 6px;
+    border-radius: 10px;
     padding: 5px;
     text-align: center;
 }
@@ -36,9 +36,11 @@ a .comprar{
     margin-bottom: 10px;
 }
 #carrito-info {
+    display: flex;
+    flex-direction: column;
     margin: 20px;
     padding: 10px;
-    border: 1px solid #806375;
+    border: 3px solid #806375;
     border-radius: 4px;
     background-color: #f9f9f9;
     width: fit-content;
